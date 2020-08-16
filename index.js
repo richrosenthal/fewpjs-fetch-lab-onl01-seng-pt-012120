@@ -1,4 +1,3 @@
-let books = fetch('https://anapioficeandfire.com/api/books');
 
 function fetchBooks() {
  fetch('https://anapioficeandfire.com/api/books')
@@ -13,6 +12,7 @@ function renderBooks(books) {
     h2.innerHTML = book.name
     main.appendChild(h2)
   })
+  fetch('https://anapioficeandfire.com/api/books');
 }
 
 document.addEventListener('DOMContentLoaded', function() {
