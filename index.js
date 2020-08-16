@@ -1,4 +1,4 @@
-let books;
+let books = fetch('https://anapioficeandfire.com/api/books');
 
 function fetchBooks() {
  fetch('https://anapioficeandfire.com/api/books')
