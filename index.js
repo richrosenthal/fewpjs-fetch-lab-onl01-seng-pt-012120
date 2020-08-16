@@ -12,7 +12,7 @@ function renderBooks(books) {
     h2.innerHTML = book.name
     main.appendChild(h2)
   })
-  fetch('https://anapioficeandfire.com/api/books');
+  return fetch('https://anapioficeandfire.com/api/books');
 }
 
 document.addEventListener('DOMContentLoaded', function() {
