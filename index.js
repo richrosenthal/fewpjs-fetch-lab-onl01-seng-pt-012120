@@ -3,7 +3,7 @@ let books;
 function fetchBooks() {
   fetch('https://anapioficeandfire.com/api/books')
   .then(resp => resp.json())
-  .then(json => books = json);
+  books = json;
 
 }
 
